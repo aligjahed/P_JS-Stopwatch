@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/fluency/48/000000/globe-earth.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./dist/style.css" />
+    <title>JS Stopwatch</title>
+  </head>
+  <body>
+    <div class="container flex flex-jc-c flex-ai-c">
+      <div class="card flex flex-ai-c flex-jc-sb flex-column">
+        <div class="card__time flex">
+          <h2 id="hr">00</h2>
+          <h2>:</h2>
+          <h2 id="min">00</h2>
+          <h2>:</h2>
+          <h2 id="sec">00</h2>
+        </div>
+        <div class="card__buttons flex flex-column">
+          <a class="btn" id="btn_start" href="#">Start</a>
+          <a class="btn" id="btn_stop" href="#">Stop</a>
+          <a class="btn" id="btn_reset" href="#">Reset</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./app/js/main.js"></script>
+</html>

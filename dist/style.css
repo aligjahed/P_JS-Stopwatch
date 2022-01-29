@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.flex-jc-c {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-jc-sb {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.flex-ai-c {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flex-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.container {
+  height: 100vh;
+  background-color: #121212;
+  padding: 70px 40px;
+}
+
+.card {
+  max-width: 750px;
+  max-height: 650px;
+  height: 100%;
+  width: 100%;
+  padding: 80px 25px 40px 25px;
+  border-radius: 20px;
+  background-color: #30475e;
+}
+
+.card__time {
+  margin-top: 10px;
+}
+
+.card__time h2 {
+  color: #f5f5f5;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0 10px;
+}
+
+.card__buttons {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card__buttons a {
+  color: #f5f5f5;
+  background-color: #f05454;
+  margin-bottom: 30px;
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+  .btn:hover {
+    background-color: transparent;
+    border: 3px solid #f05454;
+  }
+}
+/*# sourceMappingURL=style.css.map */

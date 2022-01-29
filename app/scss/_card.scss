@@ -1,0 +1,47 @@
+.card {
+  max-width: 750px;
+  max-height: 650px;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 80px 25px 40px 25px;
+
+  border-radius: 20px;
+  background-color: $darkBlue;
+
+  &__time {
+    margin-top: 10px;
+    h2 {
+      color: $white;
+      font-size: 40px;
+      font-weight: 600;
+      margin: 0 10px;
+    }
+  }
+
+  &__buttons {
+    width: 100%;
+    border-radius: 10px;
+
+    a {
+      color: $white;
+      background-color: $pink;
+
+      margin-bottom: 30px;
+      padding: 5px;
+
+      border-radius: 10px;
+
+      font-size: 30px;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (min-width: 500px) {
+  .btn:hover {
+    background-color: transparent;
+    border: 3px solid $pink;
+  }
+}
